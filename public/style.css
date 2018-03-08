@@ -1,0 +1,21 @@
+body {
+  background-color: blue;
+}
+
+textarea {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  color: white;
+  font-family: Courier;
+  resize: none;
+  border-style: none;
+  font-size: 120%;
+  box-shadow: none;
+}
+
+textarea:focus {
+  border-style: none;
+  outline: none;
+  box-shadow: none;
+}
