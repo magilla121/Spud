@@ -26,6 +26,10 @@ document.addEventListener('keydown', (event) => {
   if(event.keyCode === 13) {
     saveFile();
   }
+//if the user press 'escape', exit this window without saving
+  if(event.keyCode === 27) {
+    remote.getCurrentWindow().close();
+  }
 });
 
 var saveFile = () => {
