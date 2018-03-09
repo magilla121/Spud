@@ -1,10 +1,11 @@
 body {
+  overflow: hidden;
   background-color: blue;
 }
 
 input {
   display: block;
-  width: 85%;
+  width: 80%;
   font-family: Courier;
   margin-left: auto;
   margin-right: auto;
@@ -12,8 +13,9 @@ input {
 }
 
 button {
-  width: 12%;
-  height: 50px;
+  transform:scale(.3);
+  border-style: none;
+  background-color: transparent;
   font-family: Courier;
   font-size: 20px;
 }
