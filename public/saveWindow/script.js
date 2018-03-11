@@ -16,7 +16,7 @@ getFavoriteDirectory((favDir) => {
     saveAs.value = favDir;
   } else {
     //if the user has never saved a file through spud before, assume they want to use the default path of TextDitor/Files
-    saveAs.value =  ('../../../TextEditor/Files/hello.txt');
+    saveAs.value =  path.join(__dirname,'../../Files/hello.txt');
   }
 });
 
